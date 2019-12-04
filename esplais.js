@@ -17,6 +17,11 @@ Array.prototype.esplais = function( index, numDelete, ...itemsForAdd) {
     }
 
 }
+// Uso y prueba del Splice
+var arrP = [1,2,3,4];
+var res = new Array();
+
+res = arrP.esplais( 1, 1, 5,6,7,7,8);
 
 
 
