@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    const input = ['Fernando', 'Daniel', 'Luis', 'Adriana', 'Oscar'];
+// Find the max length name in the Array.
+input.reduce((accumulator, iterator) => 
+    iterator.length >= accumulator.length ? iterator: accumulator, '');
+const a = 5;
+const b = 7;
+const c = 9;
+const d = 2;
+let e,f = 0;
+e = a * b;
+setTimeout(() => {
+    f = c * d;
+    console.log(e + f);
+}, 0);
+console.log(e + f);
+const myFunction = age => {
+    return new Promise((resolve, reject) => {
+        if(age > 18) {
+            resolve({
+                ine: 'DNAS1283',
+                rfc: 'ASD123D'
+            });
+        } else {
+            reject({
+                code: 404,  
+                message: 'Es menor de edad'
+            });
+        }
+    });
+};
+const promise = myFunction(19);
+promise
+    .then(userData => {
+        return new Promise((resolve, reject) => {
+            resolve(userData.lorer);
+        });
+    })
+    .then(response => {
+    })
+    .catch(error => {
+        console.log(error)
+    });
+
+    const promise2 = myFunction(13);
+promise2
+    .then(userData => {
+        return new Promise((resolve, reject) => {
+            resolve(userData.lorer);
+        });
+    })
+    .then(response => {
+    })
+    .catch(error => {
+        console.log(error)
+    });
+    // Funcion que se inicia y es anonima 
+    (async () => {
+        const promise = myFunction(19);
+        try {
+            const userData = await promise;
+            const otherResponse = await promise2;
+            userData + otherResponse 
+        } catch (error) {
+            console.log(error);
+        }
+    })();
+</script>
+</head>
+<body>
+</body>
+</html>

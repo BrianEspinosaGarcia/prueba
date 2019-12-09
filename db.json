@@ -1,0 +1,40 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "name": "Capitan America",
+      "Estudios": "Marvel",
+      "linkTrailer": "https://www.youtube.com/embed/Cy_znrsuXic?start=1"
+   },
+    {
+        "id": 2,
+        "name": "Iron Man ",
+        "Estudios": "Marvel",
+        "linkTrailer": "https://www.youtube.com/embed/TcMBFSGVi1c?start=1"
+    },
+    {
+        "id": 3,
+        "name": "Deadpool",
+        "Estudios": "Fox ",
+        "linkTrailer": "https://www.youtube.com/embed/0JnRdfiUMa8?start=1"
+    },
+    {
+        "id": 4,
+        "name": "X-men",
+        "Estudios": "Fox Century",
+        "linkTrailer": "https://www.youtube.com/embed/Nly3-14vLh0?start=1"
+    },
+    {
+        "id": 5,
+        "name": "Spiderman",
+        "Estudios": "Sony ",
+        "linkTrailer": "https://www.youtube.com/embed/Nt9L1jCKGnE?start=1"
+    },
+    {
+        "id": 6,
+        "name": "Frozen",
+        "Estudios": "Disney",
+        "linkTrailer": "https://www.youtube.com/embed/gIOyB9ZXn8s?start=1"
+    }
+  ]
+}
